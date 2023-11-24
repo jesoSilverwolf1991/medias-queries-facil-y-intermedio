@@ -1,0 +1,40 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    background-color:pink;
+  }
+  
+
+  .contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    color: white;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .contenedor {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+
+  @media (max-width: 480px) {
+    .contenedor {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  
+  .item {
+    background-color: green;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  

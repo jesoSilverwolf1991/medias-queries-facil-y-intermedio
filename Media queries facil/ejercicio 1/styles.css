@@ -1,0 +1,10 @@
+body {
+    background-color: #EC7063 ; 
+}
+
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: #F1948A ; 
+    }
+}

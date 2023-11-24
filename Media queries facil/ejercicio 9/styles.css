@@ -1,0 +1,13 @@
+
+.mi-boton {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: pink;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .mi-boton {
+        color: black; 
+    }
+}

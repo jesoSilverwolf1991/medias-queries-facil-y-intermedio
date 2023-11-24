@@ -1,0 +1,13 @@
+
+.mi-div {
+    width: 200px;
+    height: 100px;
+    background-color: #eee;
+}
+
+
+@media print {
+    .mi-div {
+        border: 2px solid black; 
+    }
+}

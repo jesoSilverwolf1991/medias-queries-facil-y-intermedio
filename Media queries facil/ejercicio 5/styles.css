@@ -1,0 +1,11 @@
+
+header {
+    background-color: #f0f0f0; 
+}
+
+
+@media only screen and (min-device-pixel-ratio: 2) {
+    header {
+        background-color: #a0a0a0; 
+    }
+}

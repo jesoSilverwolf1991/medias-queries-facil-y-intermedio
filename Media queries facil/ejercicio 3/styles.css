@@ -1,0 +1,10 @@
+.elemento {
+    margin: 10px; 
+}
+
+
+@media only screen and (min-width: 1201px) {
+    .elemento {
+        margin: 20px; 
+    }
+}

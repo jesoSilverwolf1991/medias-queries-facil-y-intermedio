@@ -1,0 +1,33 @@
+body, h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif
+  }
+  
+ 
+  .background-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(9, 10, 7);
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  
+  @media (min-width: 1200px) {
+    .background-section {
+      background-image: url('foto1.jpg'); 
+    }
+  }
+  
+  
+  @media (max-width: 1200px) {
+    .background-section {
+      background-image: url('foto2.jpg'); 
+    }
+  }

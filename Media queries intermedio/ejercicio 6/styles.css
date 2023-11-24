@@ -1,0 +1,47 @@
+
+body, div, img {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+  }
+  
+  
+  .slider-container {
+    max-width: 768px; 
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    animation: slide 15s infinite; 
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .slider {
+      animation: none;
+    }
+  }
+  
+  
+  @keyframes slide {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(-200%);
+    }
+    75% {
+      transform: translateX(-300%);
+    }
+  }
+  

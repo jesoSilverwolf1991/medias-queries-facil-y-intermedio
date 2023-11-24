@@ -1,0 +1,33 @@
+
+body, a {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+  }
+  
+ 
+  @media screen {
+    a.info-link {
+      color: #9fd9ff; 
+      text-decoration: underline; 
+    }
+  
+    a.other-link {
+      color: rgb(192, 255, 200); 
+      text-decoration: none; 
+    }
+  }
+  
+
+  @media print {
+    a.info-link {
+      color: #000; 
+      font-weight: bold; 
+    }
+  
+    a.other-link {
+      color: #000; 
+      font-style: italic; 
+    }
+  }
+  
